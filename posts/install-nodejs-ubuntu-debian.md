@@ -2,7 +2,7 @@
 layout: "@layouts/BlogPost.astro"
 title: "Install the latest version of NodeJS in Debian and Ubuntu"
 description: "By default, the APT package manager used in Debian and Ubuntu distros will install older versions of NodeJS. To install newer versions of NodeJS requires adding a specific repository first, here's a quick guide on how to do that."
-pubDate: "December 16, 2022"
+publish_date: 2022-12-16
 tags:
   - Web Development
   - NodeJS

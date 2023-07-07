@@ -2,7 +2,7 @@
 layout: "@layouts/BlogPost.astro"
 title: "Install Yarn in Debian and Ubuntu"
 description: "Normally there is no way to install Yarn using a Linux package manager, and it's recommended to install it through NPM instead. That's all well and good, but here's a quick guide on how to install it via the APT package manager anyway."
-pubDate: "December 17, 2022"
+publish_date: 2022-12-17
 tags:
   - Web Development
   - Yarn
