@@ -85,7 +85,7 @@ sudo systemctl smbd nmbd
 
 Now you should be able to access the share from a Windows PC on the same network without being prompted for a login.
 
-[![Screenshot of Windows Run](/img/blog/public.png)](https://arieldiaz.codes/img/blog/public.png)
+[![Screenshot of Windows Run](/img/blog/public.png)](https://adiaz.us/img/blog/public.png)
 
 <div id='ref' />
 
