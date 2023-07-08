@@ -120,15 +120,21 @@ git config --global commit.gpgsign true
 To get the verified badge on commits, we need to add the GPG key on GitHub.
 Click on your _Profile_ picture and then choose _Settings_ from the dropdown.
 
-<a href="/img/blog/gh1.png" target="_blank"><img src="/img/blog/gh1.png" alt="Screenshot of GitHub with Settings selected from dropdown menu."></a>
+<div style="text-align:center">
+  <a href="/img/blog/gh1.png" target="_blank"><img src="/img/blog/gh1.png" alt="Screenshot of GitHub with Settings selected from dropdown menu."></a>
+</div>
 
 Next click on **SSH and GPG keys** in the menu on the left:
 
-<a href="/img/blog/gh2.png" target="_blank"><img src="/img/blog/gh2.png" alt="Screenshot of GitHub settings with SSH and GPG keys selected."></a>
+<div style="text-align:center">
+  <a href="/img/blog/gh2.png" target="_blank"><img src="/img/blog/gh2.png" alt="Screenshot of GitHub settings with SSH and GPG keys selected."></a>
+</div>
 
 Scroll down to where it says _GPG keys_ and click on the **New GPG key** button.
 
-<a href="/img/blog/gh-gpg1png" target="_blank"><img src="/img/blog/gh-gpg1.png" alt="Screenshot of GitHub settings where you add a GPG key."></a>
+<div style="text-align:center">
+  <a href="/img/blog/gh-gpg1png" target="_blank"><img src="/img/blog/gh-gpg1.png" alt="Screenshot of GitHub settings where you add a GPG key."></a>
+</div>
 
 To see the portion of the GPG key you need to add in GitHub, use this command:
 
@@ -146,7 +152,9 @@ Now to test it out, push out any commit to a GitHub repo. You should be prompted
 for the GPG password when using `git commit` and providing it will sign the
 commit. Now your commits should have the verified badge in GitHub.
 
-<a href="/img/blog/gh-gpg2.png" target="_blank"><img src="/img/blog/gh-gpg2.png" alt="Screenshot of GitHub verified badge on a signed commit."></a>
+<div style="text-align:center">
+  <a href="/img/blog/gh-gpg2.png" target="_blank"><img src="/img/blog/gh-gpg2.png" alt="Screenshot of GitHub verified badge on a signed commit."></a>
+</div>
 
 <div id='ref' />
 

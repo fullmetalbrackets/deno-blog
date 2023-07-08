@@ -30,7 +30,9 @@ output a nicely formatted list of all devices, including hard drives and their
 partitions. Partitions within a hard drive are named, for example, **sda1**,
 **sda2**, etc. Let's see the output of `lsblk`:
 
-[![Screenshot of lsblk output](/img/blog/mount1.png)](https://arieldiaz.codes/img/blog/mount1.png)
+<div style="text-align:center">
+  <a href="/img/blog/mount1.png" target="_blank"><img src="/img/blog/mount1.png" alt="Screenshot of lsblk output." /></a>
+</div>
 
 The output shows this computer has a primary hard drive, **/sda**, with two
 partitions. **/sdb** is an additional 1TB hard drive installed. In my case this
@@ -80,7 +82,9 @@ block devices have the major number 7 while hard drives have the major number 8,
 both separated from the minor number by a colon. So by piping `7:` through grep
 I can list only hard drives. Here's the output:
 
-[![Screenshot of output from command lsblk | grep -v 7:](/img/blog/mount2.png)](https://arieldiaz.codes/img/blog/mount2.png)
+<div style="text-align:center">
+  <a href="/img/blog/mount2.png" target="_blank"><img src="/img/blog/mount2.png" alt="Screenshot of output from command lsblk | grep -v 7:" /></a>
+</div>
 
 There it is! In my case I made a primary partition taking up the entire 1TB hard
 drive. Now I can see the contents by using `ls /mnt/DATA`. But there's one last
@@ -88,16 +92,24 @@ thing to do. This drive will not stay mounted on reboot by default, so let's
 make sure we make it stay. This is done by editing the **fstab** file. Let's do
 that with `sudo nano /etc/fstab`.
 
-[![Screenshot of fstab file](/img/blog/mount3.png)](https://arieldiaz.codes/img/blog/mount3.png)
+<div style="text-align:center">
+  <a href="/img/blog/mount3.png" target="_blank"><img src="/img/blog/mount3.png" alt="Screenshot of fstab file" /></a>
+</div>
 
 It gives you the instructions right there, very plainly. Let's do as it says and
 use the command `blkid`. (If there's no output, do it with **sudo**.)
 
-[![Screenshot of blkid output](/img/blog/mount4.png)](https://arieldiaz.codes/img/blog/mount4.png)
+<div style="text-align:center">
+  <a href="/img/blog/mount4.png" target="_blank"><img src="/img/blog/mount4.png" alt="Screenshot of blkid output" /></a>
+</div>
 
 Since the drive is mounted, it's helpfully labeled, so you can figure out which
 one it is at a glance. Copy the **UUID**, then paste it into the fstab file and
 add the other options as instructed:
+
+<div style="text-align:center">
+  <a href="/img/blog/mount5.png" target="_blank"><img src="/img/blog/mount5.png" alt="Screenshot of fstab file" /></a>
+</div>
 
 [![Screenshot of fstab file](/img/blog/mount5.png)](https://arieldiaz.codes/img/blog/mount5.png)
 

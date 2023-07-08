@@ -69,7 +69,9 @@ here.
 > <a href="https://discourse.pi-hole.net/t/how-do-i-configure-my-devices-to-use-pi-hole-as-their-dns-server/245#3-manually-configure-each-device-9" target="_blank">configure
 > each device's DNS</a>.
 
-<a href="/img/blog/dns1.png" target="_blank"><img src="/img/blog/dns1.png" alt="Screenshot of DNS settings." /></a>
+<div style="text-align:center">
+  <a href="/img/blog/dns1.png" target="_blank"><img src="/img/blog/dns1.png" alt="Screenshot of DNS settings." /></a>
+</div>
 
 These are my personal settings, I use Cloudflare's 1.1.1.1 as the upstream DNS,
 but use which ever you prefer. Under _interface settings_ the recommended
@@ -82,7 +84,9 @@ should work as intended with it checked.
 
 On the Pi-Hole web UI, click on _Adlists_ on the navigation bar:
 
-<a href="/img/blog/adlist.png" target="_blank"><img src="/img/blog/adlist.png" alt="Screenshot of Pi-Hole UI showing Adlists section." /></a>
+<div style="text-align:center">
+  <a href="/img/blog/adlist.png" target="_blank"><img src="/img/blog/adlist.png" alt="Screenshot of Pi-Hole UI showing Adlists section." /></a>
+</div>
 
 The most efficient way to block URLs in Pi-Hole is to use an adlist, which is a
 list of URLs to block en masse. (You can also blacklist individual URLs from the
@@ -114,7 +118,9 @@ whitelist domains as needed. (You can also use a
 <a href="https://github.com/anudeepND/whitelist" target="_blank">curated
 whitelist</a>.)
 
-<a href="/img/blog/adlist.png" target="_blank"><img src="/img/blog/blocked.png" alt="Screenshot of over 3 million domains blocked on Pi-Hole dashboard." /></a>
+<div style="text-align:center">
+  <a href="/img/blog/adlist.png" target="_blank"><img src="/img/blog/blocked.png" alt="Screenshot of over 3 million domains blocked on Pi-Hole dashboard." /></a>
+</div>
 
 <div id='advanced' />
 
@@ -127,7 +133,9 @@ to use _Conditional Forwarding_, though it does not work with every router.
 Go to _Settings_ on the navigation bar, click on the _DNS_ tab, and scroll down
 to _Advanced DNS settings_.
 
-<a href="/img/blog/dns2.png" target="_blank"><img src="/img/blog/dns2.png" alt="Screenshot of Conditional Forwarding setting." /></a>
+<div style="text-align:center">
+  <a href="/img/blog/dns2.png" target="_blank"><img src="/img/blog/dns2.png" alt="Screenshot of Conditional Forwarding setting." /></a>
+</div>
 
 Check the box to _Use Conditional Forwarding_, enter your network information,
 and hit Save. Check the dashboard and see if that's enough to display hostnames
@@ -136,7 +144,9 @@ instead of IP addresses.
 If the hostnames are not showing (sometimes it takes a minute), go back to
 _Advanced DNS settings_.
 
-<a href="/img/blog/dns3.png" target="_blank"><img src="/img/blog/dns3.png" alt="Screenshot of advanced DNS settings." /></a>
+<div style="text-align:center">
+  <a href="/img/blog/dns3.png" target="_blank"><img src="/img/blog/dns3.png" alt="Screenshot of advanced DNS settings." /></a>
+</div>
 
 The above settings should be checked for more security, but try unchecking one
 or both to see if they make the hostnames show. If not, it's possible your
@@ -145,7 +155,9 @@ router does not broadcast a local domain.
 You'll have to manually add each device's IP address and hostname/domain. Go to
 _Local DNS_ on the navigation bar, and click on _DNS Records_.
 
-<a href="/img/blog/dns4.png" target="_blank"><img src="/img/blog/dns4.png" alt="Screenshot of add new domain/IP combination page." /></a>
+<div style="text-align:center">
+  <a href="/img/blog/dns4.png" target="_blank"><img src="/img/blog/dns4.png" alt="Screenshot of add new domain/IP combination page." /></a>
+</div>
 
 Alternately, you can manually edit the `/etc/hosts` file on the server running
 Pi-Hole. You can bind an IP to a hostname, domain or any other alias.

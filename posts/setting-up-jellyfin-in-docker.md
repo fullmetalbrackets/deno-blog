@@ -108,16 +108,22 @@ desired, for purposes of this guide we'll choose _English_ and click _Next_. On
 the following page you can create a user and password (or you can use no
 password if preferred), create your login and click _Next_.
 
-<a href="/img/blog/jellyfin1.png" target="_blank"><img src="/img/blog/jellyfin1.png" alt="Screenshot of jellyfin user creation." /></a>
+<div style="text-align:center">
+  <a href="/img/blog/jellyfin1.png" target="_blank"><img src="/img/blog/jellyfin1.png" alt="Screenshot of jellyfin user creation." /></a>
+</div>
 
 You'll be taken to setup your media libraries, click on _Add Media Library_.
 
-<a href="/img/blog/jellyfin2.png" target="_blank"><img src="/img/blog/jellyfin2.png" alt="Screenshot of Jellyfin media library setup." /></a>
+<div style="text-align:center">
+  <a href="/img/blog/jellyfin2.png" target="_blank"><img src="/img/blog/jellyfin2.png" alt="Screenshot of Jellyfin media library setup." /></a>
+</div>
 
 In the Content Type drop down menu, choose like kind of media you're adding. For
 this guide we'll choose _Movies_, then click _Ok_.
 
-<a href="/img/blog/jellyfin3.png" target="_blank"><img src="/img/blog/jellyfin3.png" alt="Screenshot of creating a movie library in Jellyfin." /></a>
+<div style="text-align:center">
+  <a href="/img/blog/jellyfin3.png" target="_blank"><img src="/img/blog/jellyfin3.png" alt="Screenshot of creating a movie library in Jellyfin." /></a>
+</div>
 
 A series of options will appear, read through them and make your choices, or
 just leave the defaults if you don't want to change anything. To add a folder to
@@ -125,7 +131,9 @@ the library, click the _Plus (+) button_ and you'll get a pop-up where you can
 choose a folder. Choose from the list, or type out the path, and click _Ok_ (You
 can also add a network share as the folder.)
 
-<a href="/img/blog/jellyfin4.png" target="_blank"><img src="/img/blog/jellyfin4.png" alt="Screenshot of adding a folder to the Jellyfin movie library." /></a>
+<div style="text-align:center">
+  <a href="/img/blog/jellyfin4.png" target="_blank"><img src="/img/blog/jellyfin4.png" alt="Screenshot of adding a folder to the Jellyfin movie library." /></a>
+</div>
 
 On the following page you can set up remote access to Jellyfin, meaning whether
 other devices will be able to access Jellyfin. You'll need the line
@@ -136,7 +144,9 @@ _Enable automatic port mapping_ unless you want to access Jellyfin from outside
 your network. (You'll additionally need to open port 8096 on your router for
 that.) Then click _Next_.
 
-<a href="/img/blog/jellyfin5.png" target="_blank"><img src="/img/blog/jellyfin5.png" alt="Screenshot of set up remote access in Jellyfin." /></a>
+<div style="text-align:center">
+  <a href="/img/blog/jellyfin5.png" target="_blank"><img src="/img/blog/jellyfin5.png" alt="Screenshot of set up remote access in Jellyfin." /></a>
+</div>
 
 Your movies should now appear within the _Movies_ section of the Jellyfin UI.
 Repeat the process to add other directories for your _TV_, _Music_, _Books_,

@@ -97,7 +97,9 @@ Once the blog is set up, go into the project directory and run the development
 server using the command `deno task dev` and go to the URL. Notice the default
 layout of everything.
 
-<a href="/img/blog/deno1.png" target="_blank"><img src="/img/blog/deno1.png" alt="Screenshot of Deno blog"></a>
+<div style="text-align:center">
+  <a href="/img/blog/deno1.png" target="_blank"><img src="/img/blog/deno1.png" alt="Screenshot of Deno blog" /></a>
+</div>
 
 To configure and customize the blog, edit the `main.tsx` file. It should look
 like the below:
@@ -176,7 +178,9 @@ login.
 Once logged in to Deno Deploy, you'll be on the _Projects_ dashboard. Click the
 _+ New Project_ button:
 
-<a href="/img/blog/deno2.png" target="_blank"><img src="/img/blog/deno2.png" alt="Screenshot of Deno Deploy UI"></a>
+<div style="text-align:center">
+  <a href="/img/blog/deno2.png" target="_blank"><img src="/img/blog/deno2.png" alt="Screenshot of Deno Deploy UI"></a>
+</div>
 
 <br>
 

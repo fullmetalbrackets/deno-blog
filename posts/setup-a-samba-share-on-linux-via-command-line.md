@@ -162,11 +162,15 @@ on your network!
 On Windows, go to Start Menu > Run and type the following (replacing with your
 Linux machine's actual IP) and hit Enter:
 
-[![Screenshot of Windows Run](/img/blog/samba1.png)](https://arieldiaz.codes/img/blog/samba1.png)
+<div style="text-align:center">
+  <a href="/img/blog/samba1.png"><img src="/img/blog/samba1.png" alt="Screenshot of Windows Run" /></a>
+</div>
 
 Or you can connect by hostname rather than IP.
 
-[![Screenshot of Windows Run](/img/blog/samba1.png)](https://arieldiaz.codes/img/blog/samba2.png)
+<div style="text-align:center">
+  <a href="/img/blog/samba2.png"><img src="/img/blog/samba2.png" alt="Screenshot of Windows Run" /></a>
+</div>
 
 You should now have the shared folder open in your Windows PC! For ease of
 access, pin it to Quick Access or map it as a Network Drive.
