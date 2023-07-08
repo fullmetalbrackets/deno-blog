@@ -34,13 +34,13 @@ Finally, using the SMB option to transfer photos requires the NAS Add-On for Pho
 In the Photosync app, tap the _gear icon_ at the bottom-right corner to enter the Settings.
 
 <a href="/img/blog/photosync1.jpg" target="_blank"><img src="/img/blog/photosync1.jpg" alt="Screenshot of Photosync settings"></a>
-
+<br><br>
 <a href="/img/blog/photosync2.jpg" target="_blank"><img src="/img/blog/photosync2.jpg" alt="Screenshot of Photosync settings"></a>
 
 Under _Transfer Targets_ tap on _Configure_. On the following page choose _SMB_ from the list, then tap _Add New Configuration_.
 
 <a href="/img/blog/photosync3.jpg" target="_blank"><img src="/img/blog/photosync3.jpg" alt="Screenshot of Photosync SMB configuration"></a>
-
+<br><br>
 <a href="/img/blog/photosync4.jpg" target="_blank"><img src="/img/blog/photosync4.jpg" alt="Screenshot of Photosync SMB configuration"></a>
 
 Enter the IP address of the server where the Samba share is, enter the login and password (assuming you have it set up that way), then tap the _magnifying glass button next to Directory_. The app should automatically show any Samba shares already set up on the server, tap on the one you want to use.
@@ -60,7 +60,7 @@ The rest of the settings you can set to your liking. If you haven't gotten any e
 Back on the main page, tap the _red transfer icon at the top_, tap _All_ (or you can tap individual photos and choose _Selected_), then tap _SMB_.
 
 <a href="/img/blog/photosync7.jpg" target="_blank"><img src="/img/blog/photosync7.jpg" alt="Screenshot of Photosync photo transfer interface"></a>
-
+<br><br>
 <a href="/img/blog/photosync8.jpg" target="_blank"><img src="/img/blog/photosync8.jpg" alt="Screenshot of Photosync photo transfer interface"></a>
 
 Tap on the directory to transfer your photos into (keep in mind _Destination Folder_ and _Create Sub-Directories_ in the SMB Account setting from earlier) and tap Select, the photo transfer should begin.
