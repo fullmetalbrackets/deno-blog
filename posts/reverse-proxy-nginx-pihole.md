@@ -8,14 +8,14 @@ tags:
   - Nginx
 ---
 
-## Sections
+<!-- ## Sections
 
 1. [Pre-Requisites and Caveats](#pre)
 2. [Change the port of OpenMediaVault's workbench GUI](#omv)
 3. [Add the DNS records in Pi-Hole](#pihole)
 4. [Install the Nginx Proxy Manager container](#npm)
 5. [Create the proxy hosts](#proxy)
-6. [References](#ref)
+6. [References](#ref) -->
 
 <div id='pre' />
 

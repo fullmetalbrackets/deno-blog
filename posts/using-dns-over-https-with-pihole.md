@@ -9,12 +9,12 @@ tags:
   - DNS over HTTPS
 ---
 
-## Sections
+<!-- ## Sections
 
 1. [Caveats and pre-requisites](#pre)
 2. [Install and setup the Cloudflared daemon](#install)
 3. [Configure Pi-Hole to use Cloudflared](#config)
-4. [References](#ref)
+4. [References](#ref) -->
 
 <div id='pre' />
 
