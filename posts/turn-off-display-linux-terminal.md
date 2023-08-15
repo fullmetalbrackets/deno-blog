@@ -7,17 +7,7 @@ tags:
   - Linux
 ---
 
-<div>
-  <div class="info">
-    <span>
-      <img src="/img/assets/info.svg" class="info-icon">
-      <b>Information</b>
-    </span>
-    <p>
-      Reference: <a href="https://askubuntu.com/questions/62858/turn-off-monitor-using-command-line" target="_blank">Several answers to this post on AskUbuntu</a>
-    </p>
-  </div>
-</div>
+> Reference: <a href="https://askubuntu.com/questions/62858/turn-off-monitor-using-command-line" target="_blank">Several answers to this post on AskUbuntu</a>
 
 ## With VBETool
 
