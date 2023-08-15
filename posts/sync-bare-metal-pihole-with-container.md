@@ -1,7 +1,7 @@
 ---
 title: "Sync a bare metal Pi-Hole instance with a Pi-Hole docker container on another host"
 description: "I've run Pi-Hole bare metal for years and recently decided to run a secondary instance of Pi-Hole on another machine as a Docker container. Gravity Sync keeps them updated with all the same DNS records, block lists, etc. Here's how I set it up."
-pubDate: 2023-08-10
+publish_date: 2023-08-10
 tags:
   - Pi-Hole
   - Gravity Sync

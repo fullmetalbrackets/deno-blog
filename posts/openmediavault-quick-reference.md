@@ -1,7 +1,7 @@
 ---
 title: "OpenMediaVault Quick Reference"
 description: "I've been using OpenMediaVault 6 for over a year now, and it's user interface can be a bit obtuse, so I wrote myself a series of quick step-by-step guides for enabling certain features within the OMV workbench UI."
-pubDate: 2023-07-30
+publish_date: 2023-07-30
 tags:
   - OpenMediaVault
   - Self-Hosting

@@ -1,7 +1,7 @@
 ---
 title: "Sudo without password"
 description: "How to use sudo command in Linux without the password prompt, by adding a line to the sudoers file."
-pubDate: 2022-04-20
+publish_date: 2022-04-20
 tags:
   - Linux
 ---
