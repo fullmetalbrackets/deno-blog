@@ -60,7 +60,7 @@ Next, you need an app to be able to transfer files to the TV. The easiest way
 I've found to do this is with the Send Files to TV app from the Play Store.
 There are other options, but this one is so quick and easy (plus free) that I've
 never bothered with another app. Install the Send Files to TV app (or your
-chosen alternative) on _BOTH_ the Sony Bravia TV and the phone/tablet.
+chosen alternative) on *BOTH* the Sony Bravia TV and the phone/tablet.
 
 Download: <a href="https://play.google.com/store/apps/details?id=com.mobisystems.fileman" target="_blank" rel="noopener noreferrer">File
 Commander</a>\
