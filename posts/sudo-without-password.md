@@ -1,24 +1,12 @@
 ---
-layout: "@layouts/Note.astro"
 title: "Sudo without password"
 description: "How to use sudo command in Linux without the password prompt, by adding a line to the sudoers file."
-pubDate: "April 20, 2022"
+pubDate: 2022-04-20
 tags:
   - Linux
 ---
 
-<div>
-  <div class="info">
-    <span>
-      <img src="/img/assets/info.svg" class="info-icon">
-      <b>Information</b>
-    </span>
-    <p>
-      <a href="https://man7.org/linux/man-pages/man5/sudoers.5.html" target="_blank">Man page for logind.conf</a>
-    </p>
-  </div>
-</div>
-<br>
+> <a href="https://man7.org/linux/man-pages/man5/sudoers.5.html" target="_blank">Man page for logind.conf</a>
 
 Removing the sudo password prompt is done by editing the `/etc/sudoers` file, however you should never edit this file directly, but instead use `sudo visudo` to do so.
 

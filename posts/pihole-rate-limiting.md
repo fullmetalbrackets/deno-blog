@@ -1,8 +1,7 @@
 ---
-layout: "@layouts/Note.astro"
 title: "Disable query rate-limiting on Pi-Hole to fix DNS"
 description: "Sometimes DNS issues in Pi-Hole are a result of the DNS query rate-limiting enabled by default, which can be disabled altogether by editing a single file."
-pubDate: "July 18, 2023"
+pubDate: 2023-07-18
 tags:
   - Pi-Hole
 ---

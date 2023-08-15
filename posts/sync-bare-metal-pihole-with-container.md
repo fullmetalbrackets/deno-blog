@@ -1,35 +1,17 @@
 ---
-layout: "@layouts/Note.astro"
 title: "Sync a bare metal Pi-Hole instance with a Pi-Hole docker container on another host"
 description: "I've run Pi-Hole bare metal for years and recently decided to run a secondary instance of Pi-Hole on another machine as a Docker container. Gravity Sync keeps them updated with all the same DNS records, block lists, etc. Here's how I set it up."
-pubDate: "August 10, 2023"
+pubDate: 2023-08-10
 tags:
   - Pi-Hole
+  - Gravity Sync
+  - Docker
 ---
 
-<div>
-  <div class="info">
-    <span>
-      <img src="/img/assets/info.svg" class="info-icon">
-      <b>Note</b>
-    </span>
-    <p>
-      I have a post explaining <a href="set-up-pihole-on-linux" target="_blank">how to install and configure Pi-Hole</a>. Here I will only be focusing on setting up <a href="https://github.com/vmstan/gravity-sync" target="_blank">Gravity Sync</a> with the assumption that both instances of Pi-Hole are already up and running on their hosts.
-    </p>
-  </div>
-</div>
-<div>
-  <div class="alert">
-    <span>
-      <img src="/img/assets/alert.svg" class="alert-icon">
-      <b>Important!</b>
-    </span>
-    <p>
-      In order for Gravity Sync to work with a Pi-Hole container, you need to use <em>bind mounts</em> to map the <code>/etc/pihole</code> and <code>/etc/dnsmasq.d</code> directories inside the container to local directories on your host, so that Gravity Sync can access and interact with the config files. This is demonstrated in my post linked above.
-    </p>
-  </div>
-<div>
-<br>
+> **ⓘ &nbsp;Note**<br><br> I have a post explaining <a href="set-up-pihole-on-linux" target="_blank">how to install and configure Pi-Hole</a>. Here I will only be focusing on setting up <a href="https://github.com/vmstan/gravity-sync" target="_blank">Gravity Sync</a> with the assumption that both instances of Pi-Hole are already up and running on their hosts.
+
+> **Important!**<br><br> In order for Gravity Sync to work with a Pi-Hole container, you need to use <em>bind mounts</em> to map the <code>/etc/pihole</code> and <code>/etc/dnsmasq.d</code> directories inside the container to local directories on your host, so that Gravity Sync can access and interact with the config files. This is demonstrated in my post linked above.
+
 SSH into the host where you have the Pi-Hole container running, and use the following command to execute the Gravity Sync install script:
 
 ```
