@@ -1,7 +1,7 @@
 ---
 title: "Setup a Cloudflare Tunnel to securely access self-hosted apps with a domain from outside the home network"
 description: "Cloudflare Tunnels have been around for a few years and are well regarded alternatives for VPNs or port-forwarding on a router. They are often used to expose access to self-hosted apps from outside the local network with minimal config or hassle. Here's how it's done."
-publish**date: 2023-07-20
+publish_date: 2023-07-20
 tags:
   - Cloudflare
   - Self-Hosting
